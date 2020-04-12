@@ -1,0 +1,40 @@
+body, html {
+  /* font-family: 'Raleway', sans-serif; */
+  /* font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; */
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.2em;
+  background: linear-gradient(90deg, rgba(245, 246, 252, 0.52), rgba(245, 246, 252, 0.65)), url("../img/saona-beach.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.main-header {
+  height: 30em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  font-family: 'Dancing Script', cursive;
+ }
+
+ #main-header-link {
+   text-decoration: none;
+   color: white;
+   font-size: 2em;
+ }
+
+ h1, h2, h3, p {
+   color: #4738ba;
+ }
+
+footer {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+#fb-icon, #mail-icon {
+  width: 3em;
+  padding: 10px;
+}
