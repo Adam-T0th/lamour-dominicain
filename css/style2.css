@@ -11,11 +11,11 @@ body, html {
 }
 
 .main-header {
-  height: 30em;
+  height: 15em;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin-bottom: 2em;
   font-family: 'Dancing Script', cursive;
  }
 
@@ -24,6 +24,14 @@ body, html {
    color: white;
    font-size: 2em;
  }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #78f0e6;
+}
 
  h1, h2, h3, p {
    color: #4738ba;
