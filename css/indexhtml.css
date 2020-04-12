@@ -46,6 +46,7 @@ body, html {
  }
 
 /* adding hue to the links within the footer */
+/* class is mine, not Bootstrap's */
  .footer-links {
    background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;
  }
@@ -54,7 +55,7 @@ body, html {
    font-size: 1.5em;
    margin: 0.3em;
  }
-
+/*
  #sticky-footer {
   flex-shrink: none;
-}
+} */

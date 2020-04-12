@@ -43,15 +43,20 @@ body, html {
 }
 
 /* adding hue to the links within the footer */
-.footer-links {
-  background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;
-}
+ .footer-links {
+   /* background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;
+   margin-bottom: 0; */
 
-#facebook-link,  #mail-link{
-  font-size: 1.5em;
-  margin: 0.3em;
-}
+  background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;  color: white;
+  text-align: center;
+  /* might be better to take out the hue; footer has a bottom gap */
+ }
 
-#sticky-footer {
- flex-shrink: none;
+ #facebook-link,  #mail-link{
+   font-size: 1.5em;
+   margin: 0.3em;
+ }
+
+ #sticky-footer {
+  flex-shrink: none;
 }
