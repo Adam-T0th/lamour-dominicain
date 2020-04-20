@@ -1,14 +1,7 @@
 body, html {
-  /* font-family: 'Raleway', sans-serif; */
-  /* font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; */
-  font-family: 'Dancing Script', cursive;
   font-size: 1.2em;
-  background: linear-gradient(90deg, rgba(245, 246, 252, 0.52), rgba(245, 246, 252, 0.65)), url("../img/saona-beach.jpg") no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+  font-family: 'Amita', cursive;
+} /* the universal rules */
 
 .main-header {
   height: 15em;
@@ -16,37 +9,83 @@ body, html {
   align-items: center;
   justify-content: center;
   margin-bottom: 2em;
-  font-family: 'Dancing Script', cursive;
- }
-
- #main-header-link {
-   text-decoration: none;
-   color: white;
-   font-size: 2em;
- }
-
-.navbar-dark .navbar-nav .nav-link {
-  color: white;
-}
-
-.navbar-dark .navbar-nav .nav-link:hover {
-  color: #78f0e6;
-}
-
- h1, h2, h3, p {
-   color: #4738ba;
  }
 
  li {
    list-style-type: none;
+   line-height: 3em;
  }
 
  .container {
    text-align: center;
  }
 
+
+  h1, h2, h3, p {
+    line-height: 3em;
+  }
+
+/* START of Main Navigation styling */
+/* The navbar */
+.bg-img {
+  /* the main navigation background image */
+  background-image: url("../img/hotel-caribe-paraiso.jpg");
+  min-height: 250px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.navbar {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0;
+}
+
+
+/* Position the navbar container inside the image */
+.nav-container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  /* background-color: #333; */
+  background: linear-gradient(90deg, rgba(245, 246, 252, 0.7), rgba(245, 246, 252, 0.3));
+  border-radius: 10px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: black !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 0.7em;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: red !important;
+  border-radius: 10px;
+}
+/* END of Main Navigation styling */
+
+
+/* START of main container styling */
+/* END of main container styling */
+
+/* Start of Footer styling */
 /* adding hue to the links within the footer */
-/* class is mine, not Bootstrap's */
  .footer-links {
    background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;
  }
@@ -55,7 +94,4 @@ body, html {
    font-size: 1.5em;
    margin: 0.3em;
  }
-/*
- #sticky-footer {
-  flex-shrink: none;
-} */
+/* END of Footer styling */
