@@ -1,7 +1,6 @@
 body, html {
-  font-size: 1.2em;
-  font-family: 'Amita', cursive;
-} /* the universal rules */
+  line-height: 3em;
+}
 
 .main-header {
   height: 15em;
@@ -9,6 +8,12 @@ body, html {
   align-items: center;
   justify-content: center;
   margin-bottom: 2em;
+ }
+
+ .nav-item {
+   list-style-type: none;
+   line-height: 3em;
+   font-size: 1.4em;
  }
 
  li {
@@ -20,9 +25,12 @@ body, html {
    text-align: center;
  }
 
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', cursive;
+  }
 
-  h1, h2, h3, p {
-    line-height: 3em;
+  p {
+    font-family: 'Lato', sans-serif;
   }
 
 /* START of Main Navigation styling */
@@ -82,7 +90,12 @@ body, html {
 
 
 /* START of main container styling */
-
+.blue-red-paragraph {
+  font-size: 1.5em;
+  background: -webkit-linear-gradient(#000080, #FF0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* END of main container styling */
 
 /* Start of Footer styling */
@@ -96,3 +109,71 @@ body, html {
    margin: 0.3em;
  }
 /* END of Footer styling */
+
+
+
+
+/* FORMATTING THE REGISTRATION FORM */
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}

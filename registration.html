@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Amita&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="css/registration.css" rel="stylesheet">
   </head>
@@ -41,7 +41,239 @@
     </div>
     </header>
     <div class="container">
-        <h1>To be completed</h1>
+<!-- Kérdőív, foglalás feltételei,  fizetésre opciók kártyás, Pay Pal, utalással -->
+
+<!-- Kérdőív, regisztrálás: név, életkor, honnan érkezne, közeli reptér, gondot okoz e Zürich vagy Münche, Bécs i indulás, elérhetőség tel email, ételérzékenység, betegség, allergia kivel érkezne: ismerős, barát, barátnővel  vagy egyedül
+szeretne szobatársat , melyik szállás érdekli, speciális igény, kérdés, kérés,  hogyan szeretne fizetni -->
+<!-- Név -->
+<!-- Életkor -->
+<!-- Honnan érkezne -->
+<!-- Közeli reptér -->
+<!-- Gondot okoz-e Zürich/München/Bécs-i indulás -->
+<!-- Ételérzékenység -->
+<!-- Betegség -->
+<!-- Allergia -->
+<!-- Kivel érkezne: ismerős/barát/barátnővel/egyedül -->
+<!-- Szeretne-e szobatársat -->
+<!-- Melyik szállás érdekli -->
+<!-- Speciális igény -->
+<!-- Kérdés/kérés -->
+<!-- Hogyan szeretne fizetni -->
+<!-- Telefon -->
+<!-- E-mail -->
+<div class="container">
+  <h1>Regisztráció</h1>
+  <p>Kérjük töltse ki az alábbi kérdőívet</p>
+  <form action="/action_page.php">
+
+    <!-- First Name -->
+    <div class="row">
+      <div class="col-25">
+        <label for="fname">Keresztnév</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="fname" name="firstname" placeholder="Keresztnév">
+      </div>
+    </div>
+
+    <!-- Last Name -->
+    <div class="row">
+      <div class="col-25">
+        <label for="lname">Családnév</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="lname" name="lastname" placeholder="Családnév">
+      </div>
+    </div>
+
+    <!-- Age -->
+    <div class="row">
+      <div class="col-25">
+        <label for="age">Életkor</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="age" name="age" placeholder="Életkor">
+      </div>
+    </div>
+
+    <!-- Departure location -->
+    <div class="row">
+      <div class="col-25">
+        <label for="deploc">Honnan érkezik?</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="deploc" name="deploc" placeholder="Honnan érkezik?">
+      </div>
+    </div>
+
+    <!-- Closest International Airport -->
+    <div class="row">
+      <div class="col-25">
+        <label for="closestAirPort">Legközelebbi nemzetközi reptér</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="closestAirPort" name="closestAirPort" placeholder="Legközelebbi nemzetközi reptér">
+      </div>
+    </div>
+
+    <!-- Zurich, Munchen or Vien departure; ZMVdep -->
+    <div class="row">
+      <div class="col-25">
+        <label for="ZMVdep">Gondot okoz-e Zürich/München/Bécs-i indulás:</label>
+      </div>
+      <div class="col-75">
+        <select id="true-false" name="true-false">
+          <option value="no">Nem</option>
+          <option value="yes">Igen</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Dietary preferences -->
+    <div class="row">
+      <div class="col-25">
+        <label for="dietPref">Ételérzékenység</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="dietPref" name="dietPref" placeholder="Ételérzékenység">
+      </div>
+    </div>
+
+    <!-- Sickness -->
+    <div class="row">
+      <div class="col-25">
+        <label for="sickness">Betegség</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="sickness" name="sickness" placeholder="Betegség">
+      </div>
+    </div>
+
+    <!-- Allergy -->
+    <div class="row">
+      <div class="col-25">
+        <label for="allergy">Allergia</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="allergy" name="allergy" placeholder="Allergia">
+      </div>
+    </div>
+
+    <!-- Travel companion -->
+    <div class="row">
+      <div class="col-25">
+        <label for="travelComp">Kivel érkezne:</label>
+      </div>
+      <div class="col-75">
+        <select id="travelComp" name="travelComp">
+          <option value="australia">Ismerős</option>
+          <option value="canada">Barát</option>
+          <option value="usa">Barátnő</option>
+          <option value="usa">Egyedül</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Roommate preferences -->
+    <div class="row">
+      <div class="col-25">
+        <label for="rommatePref">Szeretne-e szobatársat:</label>
+      </div>
+      <div class="col-75">
+        <select id="rommatePref" name="rommatePref">
+          <option value="yes">Igen</option>
+          <option value="no">Nem</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Accomodation preferences -->
+    <div class="row">
+      <div class="col-25">
+        <label for="accPref">Melyik szállás érdekli:</label>
+      </div>
+      <div class="col-75">
+        <select id="accPref" name="accPref">
+          <option value="2-person">2 személyes</option>
+          <option value="4-person">4 személyes</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Special needs -->
+    <div class="row">
+      <div class="col-25">
+        <label for="specNeeds">Speciális igény:</label>
+      </div>
+      <div class="col-75">
+        <select id="specNeeds" name="specNeeds">
+          <option value="no">Nem</option>
+          <option value="yes">Igen</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Requests/questions -->
+    <div class="row">
+      <div class="col-25">
+        <label for="q-and-a">Kérdés/kérés</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+      </div>
+    </div>
+
+    <!-- Payment preferences -->
+    <div class="row">
+      <div class="col-25">
+        <label for="payPref">Hogyan szeretne fizetni:</label>
+      </div>
+      <div class="col-75">
+        <select id="payPref" name="payPref">
+          <option value="paypal">PayPal</option>
+          <option value="card">Kártya</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Phone number -->
+    <div class="row">
+      <div class="col-25">
+        <label for="phonenr">Telefonszám</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="phonenr" name="phonenr" placeholder="Telefonszám">
+      </div>
+    </div>
+
+    <!-- E-mail -->
+    <div class="row">
+      <div class="col-25">
+        <label for="emailAddr">E-mail cím</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="emailAddr" name="emailAddr" placeholder="E-mail cím">
+      </div>
+    </div>
+
+    <!-- Submit button -->
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div>
+
+
+<!-- Részletes ajánlatot küldünk e-mailen repjegyre. Vagy
+készséggel állunk rendelkezésre e-mailen, telefonon -->
+
+<!-- Fizetés: lefoglaláskor: foglaló/előleg 50%  és repülőjegy megvásárlása.
+utazás előtt 3 héttel ingyen lemondható,  ár 90% visszafizetéssel.
+Teljes vételár megfizetése utazás előtt 3 héttel. Ha lemondják az utat kevesebb mint 3 héttel különös indokkal a foglaló nem jár vissza, de nem vesződik el, beváltható egy következő turnusra
+ingyenesen lemondható ….dátumig -->
+
+<!-- 10% engedmény aki lefoglalja 2020. június 30ig.
+Akció: júl 15ig Santo Domingo fakultatív program ajádékba -->
     </div>
     <footer id="sticky-footer" class="py-4 bg-dark text-white-50 footer-links">
       <div class="container text-center">
