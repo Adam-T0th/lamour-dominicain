@@ -1,8 +1,7 @@
 body, html {
-  /* font-family: 'Raleway', sans-serif; */
-  /* font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif; */
-  font-family: 'Dancing Script', cursive;
   font-size: 1.2em;
+  font-family: 'Amita', cursive;
+  color: blue;
 }
 
 .main-header {
@@ -11,11 +10,10 @@ body, html {
   align-items: center;
   justify-content: center;
   margin-bottom: 2em;
-  font-family: 'Dancing Script', cursive;
  }
 
  h1, h2, h3, p {
-   color: #4738ba;
+   line-height: 2em;
  }
 
  li {
@@ -69,7 +67,7 @@ body, html {
 .topnav {
   overflow: hidden;
   /* background-color: #333; */
-  background: linear-gradient(90deg, rgba(245, 246, 252, 0.9), rgba(245, 246, 252, 0.65));
+  background: linear-gradient(90deg, rgba(245, 246, 252, 0.5), rgba(245, 246, 252, 0.7));
   border-radius: 10px;
 }
 
@@ -80,10 +78,11 @@ body, html {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 0.7em;
 }
 
 .topnav a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: white;
+  color: red !important;
+  border-radius: 10px;
 }
