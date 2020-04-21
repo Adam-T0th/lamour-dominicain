@@ -27,10 +27,14 @@ body, html {
 
   h1, h2, h3, h4, h5, h6 {
     font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-size: 2em;
   }
 
-  p {
-    font-family: 'Lato', sans-serif;
+  p, li {
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-size: 1.5em;
   }
 
 /* START of Main Navigation styling */
@@ -78,7 +82,7 @@ body, html {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .topnav a:hover {
@@ -90,12 +94,7 @@ body, html {
 
 
 /* START of main container styling */
-.blue-red-paragraph {
-  font-size: 1.5em;
-  background: -webkit-linear-gradient(#000080, #FF0000);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
+
 /* END of main container styling */
 
 /* Start of Footer styling */

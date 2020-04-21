@@ -21,9 +21,17 @@ body, html {
  }
 
 
-  h1, h2, h3, p {
-    line-height: 3em;
-  }
+ h1, h2, h3, h4, h5, h6 {
+   font-family: 'Dancing Script', cursive;
+   color: blue;
+   font-size: 2em;
+ }
+
+ p, li {
+   font-family: 'Dancing Script', cursive;
+   color: blue;
+   font-size: 1.5em;
+ }
 
 /* START of Main Navigation styling */
 /* The navbar */
@@ -70,7 +78,7 @@ body, html {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 0.7em;
+  font-size: 1em;
 }
 
 .topnav a:hover {
