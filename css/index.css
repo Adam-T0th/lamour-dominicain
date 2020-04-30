@@ -1,0 +1,110 @@
+body, html {
+  line-height: 3em;
+}
+
+.main-header {
+  height: 15em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 2em;
+ }
+
+ .nav-item {
+   list-style-type: none;
+   line-height: 3em;
+   font-size: 1.4em;
+ }
+
+ li {
+   list-style-type: none;
+   line-height: 3em;
+ }
+
+ .container {
+   text-align: center;
+ }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-size: 2em;
+  }
+
+  p, li {
+    font-family: 'Dancing Script', cursive;
+    color: blue;
+    font-size: 1.5em;
+  }
+
+/* START of Main Navigation styling */
+/* The navbar */
+.bg-img {
+  /* the main navigation background image */
+  background-image: url("../img/hotel-caribe-paraiso.jpg");
+  min-height: 250px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  /* Needed to position the navbar */
+  position: relative;
+  margin-bottom: 3em;
+}
+
+.navbar {
+  margin-left: 0.5em;
+  margin-right: 0.5em;
+  padding: 0;
+}
+
+
+/* Position the navbar container inside the image */
+.nav-container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+.topnav {
+  overflow: hidden;
+  /* background-color: #333; */
+  background: linear-gradient(90deg, rgba(245, 246, 252, 0.7), rgba(245, 246, 252, 0.3));
+  border-radius: 10px;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: black !important;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: red !important;
+  border-radius: 10px;
+}
+/* END of Main Navigation styling */
+
+
+/* START of main container styling */
+
+/* END of main container styling */
+
+/* Start of Footer styling */
+/* adding hue to the links within the footer */
+ .footer-links {
+   background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;
+ }
+
+ #facebook-link,  #mail-link{
+   font-size: 1.5em;
+   margin: 0.3em;
+ }
+/* END of Footer styling */
