@@ -2,14 +2,6 @@ body, html {
   line-height: 3em;
 }
 
-.main-header {
-  height: 15em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 2em;
- }
-
  li {
    list-style-type: none;
    line-height: 3em;
@@ -20,7 +12,7 @@ body, html {
  }
 
 
- h1, h2, h3, h4, h5, h6 {
+ h2, h3 {
    font-family: 'Dancing Script', cursive;
    color: blue;
    font-size: 2em;
@@ -32,61 +24,44 @@ body, html {
    font-size: 1.5em;
  }
 
-/* START of Main Navigation styling */
-/* The navbar */
 .bg-img {
   /* the main navigation background image */
   background-image: url("../img/hotel-caribe-paraiso.jpg");
   min-height: 250px;
 
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  /* Needed to position the navbar */
   position: relative;
   margin-bottom: 3em;
 }
 
 .navbar {
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  padding: 0;
+ background: linear-gradient(90deg, rgba(220, 246, 252, 0.9), rgba(245, 246, 252, 0.7)) !important;
 }
 
-
-/* Position the navbar container inside the image */
-.nav-container {
-  position: absolute;
-  margin: 20px;
-  width: auto;
+#navBarOptions {
+ font-family: 'Dancing Script', cursive;
+ font-size: 1.5em;
+ color: blue;
 }
 
-.topnav {
-  overflow: hidden;
-  /* background-color: #333; */
-  background: linear-gradient(90deg, rgba(245, 246, 252, 0.7), rgba(245, 246, 252, 0.3));
-  border-radius: 10px;
+.nav-link {
+  color: blue !important;
 }
 
-/* Navbar links */
-.topnav a {
-  float: left;
-  color: black !important;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1em;
+a.nav-link:hover {
+  color: white !important;
 }
 
-.topnav a:hover {
-  background-color: white;
-  color: red !important;
-  border-radius: 10px;
+a.nav-link {
+ text-decoration: none;
 }
-/* END of Main Navigation styling */
 
+.navbar-dark .navbar-toggler {
+ color: white;
+ border-color: white;
+}
 
 /* START of main container styling */
 .secondary-container {

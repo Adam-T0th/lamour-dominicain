@@ -2,14 +2,6 @@ body, html {
   line-height: 3em;
 }
 
-.main-header {
-  height: 15em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin-bottom: 2em;
- }
-
  li {
    list-style-type: none;
    line-height: 3em;
@@ -20,7 +12,7 @@ body, html {
  }
 
 
- h1, h2, h3, h4, h5, h6 {
+ h2, h3 {
    font-family: 'Dancing Script', cursive;
    color: blue;
    font-size: 2em;
@@ -50,49 +42,33 @@ body, html {
 }
 
 .navbar {
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  padding: 0;
+ background: linear-gradient(90deg, rgba(220, 246, 252, 0.9), rgba(245, 246, 252, 0.7)) !important;
+}
+
+#navBarOptions {
+ font-family: 'Dancing Script', cursive;
+ font-size: 1.5em;
+ color: blue;
+}
+
+.nav-link {
+  color: blue !important;
+}
+
+a.nav-link:hover {
+  color: white !important;
+}
+
+a.nav-link {
+ text-decoration: none;
+}
+
+.navbar-dark .navbar-toggler {
+ color: white;
+ border-color: white;
 }
 
 
-/* Position the navbar container inside the image */
-.nav-container {
-  position: absolute;
-  margin: 20px;
-  width: auto;
-}
-
-.topnav {
-  overflow: hidden;
-  /* background-color: #333; */
-  background: linear-gradient(90deg, rgba(245, 246, 252, 0.7), rgba(245, 246, 252, 0.3));
-  border-radius: 10px;
-}
-
-/* Navbar links */
-.topnav a {
-  float: left;
-  color: black !important;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 1em;
-}
-
-.topnav a:hover {
-  background-color: white;
-  color: red !important;
-  border-radius: 10px;
-}
-/* END of Main Navigation styling */
-
-
-/* START of main container styling */
-/* END of main container styling */
-
-/* Start of Footer styling */
-/* adding hue to the links within the footer */
  .footer-links {
    background: linear-gradient(90deg, rgba(220, 246, 252, 0.7), rgba(245, 246, 252, 0.7)) !important;
  }
@@ -101,4 +77,3 @@ body, html {
    font-size: 1.5em;
    margin: 0.3em;
  }
-/* END of Footer styling */
