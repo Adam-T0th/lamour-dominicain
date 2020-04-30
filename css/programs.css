@@ -89,6 +89,9 @@ body, html {
 
 
 /* START of main container styling */
+.secondary-container {
+  margin: 2em;
+}
 /* END of main container styling */
 
 /* Start of Footer styling */

@@ -1,6 +1,6 @@
 body, html {
   line-height: 3em;
-}
+} 
 
 .main-header {
   height: 15em;
@@ -8,6 +8,12 @@ body, html {
   align-items: center;
   justify-content: center;
   margin-bottom: 2em;
+ }
+
+ .nav-item {
+   list-style-type: none;
+   line-height: 3em;
+   font-size: 1.4em;
  }
 
  li {
@@ -89,6 +95,7 @@ body, html {
 
 
 /* START of main container styling */
+
 /* END of main container styling */
 
 /* Start of Footer styling */

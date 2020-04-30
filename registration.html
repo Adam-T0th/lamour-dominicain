@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>L'amour Dominicain</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/registration.css" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <div class="bg-img">
+        <div class="nav-container">
+          <div class="topnav">
+            <!-- Bootstrap class-naming starts -->
+            <div class="navbar navbar-dark bg-transparent">
+              <nav class="navbar navbar-expand-md bg-dark navbar-dark navbar navbar-dark bg-transparent">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Kezdőlap</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">Rólunk</a></li>
+                    <li class="nav-item"><a class="nav-link" href="programs.html">Programok</a></li>
+                    <li class="nav-item"><a class="nav-link" href="flat-description.html">Apartman leírása</a></li>
+                    <li class="nav-item"><a class="nav-link" href="prices.html">Részvételi díjak</a></li>
+                    <li class="nav-item"><a class="nav-link" href="registration.html">Jelentkezés</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact-us.html">Elérhetőség</a></li>
+                    <li class="nav-item"><a class="nav-link" href="feedback.html">Vélemények</a></li>
+                    <li class="nav-item"><a class="nav-link" href="gallery.html">Galéria</a></li>
+                  </ul>
+                </div>
+              </nav>
+          </div>
+        <!-- Bootstrap class-naming ends -->
+        </div>
+      </div>
+    </div>
+    </header>
+    <!-- Start of form -->
+    <div class="container">
+      <h1>Regisztráció</h1>
+      <p>Kérjük töltse ki az alábbi kérdőívet</p>
+      <form action="/action_page.php">
+
+        <!-- First Name -->
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">Keresztnév</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Keresztnév">
+          </div>
+        </div>
+
+        <!-- Last Name -->
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Családnév</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Családnév">
+          </div>
+        </div>
+
+        <!-- Age -->
+        <div class="row">
+          <div class="col-25">
+            <label for="age">Életkor</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="age" name="age" placeholder="Életkor">
+          </div>
+        </div>
+
+        <!-- Departure location -->
+        <div class="row">
+          <div class="col-25">
+            <label for="deploc">Honnan érkezik?</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="deploc" name="deploc" placeholder="Honnan érkezik?">
+          </div>
+        </div>
+
+        <!-- Closest International Airport -->
+        <div class="row">
+          <div class="col-25">
+            <label for="closestAirPort">Legközelebbi nemzetközi reptér</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="closestAirPort" name="closestAirPort" placeholder="Legközelebbi nemzetközi reptér">
+          </div>
+        </div>
+
+        <!-- Zurich, Munchen or Vien departure; ZMVdep -->
+        <div class="row">
+          <div class="col-25">
+            <label for="ZMVdep">Gondot okoz-e Zürich/München/Bécs-i indulás:</label>
+          </div>
+          <div class="col-75">
+            <select id="true-false" name="true-false">
+              <option value="no">Nem</option>
+              <option value="yes">Igen</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Dietary preferences -->
+        <div class="row">
+          <div class="col-25">
+            <label for="dietPref">Ételérzékenység</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="dietPref" name="dietPref" placeholder="Ételérzékenység">
+          </div>
+        </div>
+
+        <!-- Sickness -->
+        <div class="row">
+          <div class="col-25">
+            <label for="sickness">Betegség</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="sickness" name="sickness" placeholder="Betegség">
+          </div>
+        </div>
+
+        <!-- Allergy -->
+        <div class="row">
+          <div class="col-25">
+            <label for="allergy">Allergia</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="allergy" name="allergy" placeholder="Allergia">
+          </div>
+        </div>
+
+        <!-- Travel companion -->
+        <div class="row">
+          <div class="col-25">
+            <label for="travelComp">Kivel érkezne:</label>
+          </div>
+          <div class="col-75">
+            <select id="travelComp" name="travelComp">
+              <option value="australia">Ismerős</option>
+              <option value="canada">Barát</option>
+              <option value="usa">Barátnő</option>
+              <option value="usa">Egyedül</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Roommate preferences -->
+        <div class="row">
+          <div class="col-25">
+            <label for="rommatePref">Szeretne-e szobatársat:</label>
+          </div>
+          <div class="col-75">
+            <select id="rommatePref" name="rommatePref">
+              <option value="yes">Igen</option>
+              <option value="no">Nem</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Accomodation preferences -->
+        <div class="row">
+          <div class="col-25">
+            <label for="accPref">Melyik szállás érdekli:</label>
+          </div>
+          <div class="col-75">
+            <select id="accPref" name="accPref">
+              <option value="2-person">2 személyes</option>
+              <option value="4-person">4 személyes</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Special needs -->
+        <div class="row">
+          <div class="col-25">
+            <label for="specNeeds">Speciális igény:</label>
+          </div>
+          <div class="col-75">
+            <select id="specNeeds" name="specNeeds">
+              <option value="no">Nem</option>
+              <option value="yes">Igen</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Requests/questions -->
+        <div class="row">
+          <div class="col-25">
+            <label for="q-and-a">Kérdés/kérés</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Kérdés/kérés .." style="height:200px"></textarea>
+          </div>
+        </div>
+
+        <!-- Payment preferences -->
+        <div class="row">
+          <div class="col-25">
+            <label for="payPref">Hogyan szeretne fizetni:</label>
+          </div>
+          <div class="col-75">
+            <select id="payPref" name="payPref">
+              <option value="paypal">PayPal</option>
+              <option value="card">Kártya</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Phone number -->
+        <div class="row">
+          <div class="col-25">
+            <label for="phonenr">Telefonszám</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="phonenr" name="phonenr" placeholder="Telefonszám">
+          </div>
+        </div>
+
+        <!-- E-mail -->
+        <div class="row">
+          <div class="col-25">
+            <label for="emailAddr">E-mail cím</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="emailAddr" name="emailAddr" placeholder="E-mail cím">
+          </div>
+        </div>
+
+        <!-- Submit button -->
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+      </form>
+    </div>
+<!-- End of form -->
+
+
+<!-- Részletes ajánlatot küldünk e-mailen repjegyre. Vagy
+készséggel állunk rendelkezésre e-mailen, telefonon -->
+
+<!-- Fizetés: lefoglaláskor: foglaló/előleg 50%  és repülőjegy megvásárlása.
+utazás előtt 3 héttel ingyen lemondható,  ár 90% visszafizetéssel.
+Teljes vételár megfizetése utazás előtt 3 héttel. Ha lemondják az utat kevesebb mint 3 héttel különös indokkal a foglaló nem jár vissza, de nem vesződik el, beváltható egy következő turnusra
+ingyenesen lemondható ….dátumig -->
+
+<!-- 10% engedmény aki lefoglalja 2020. június 30ig.
+Akció: júl 15ig Santo Domingo fakultatív program ajádékba -->
+    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 footer-links">
+      <div class="container text-center">
+        <a href="https://www.facebook.com/groups/322137634898205/" id="facebook-link" alt="Link to the Facebook group page" target="_blank"><i class="fa fa-facebook-official" aria-hidden="true"></i></a>
+        <a href="mailto:#" id="mail-link" alt="Get in touch with us via e-mail"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+      </div>
+    </footer>
+    <!-- inserted the scripts for Bootstrap -->
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <!-- Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <!-- JavaScript -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  </body>
+</html>
